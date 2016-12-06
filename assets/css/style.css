@@ -11,8 +11,11 @@
     color: #444;
     cursor: pointer;
     border: 0;
-    border-radius: 2px;
+    circle-radius: 2px;
     text-decoration: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
     transition: opacity 0.2s ease-out;
     opacity: 0;
 }
