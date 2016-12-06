@@ -1,11 +1,11 @@
 if ($('#back-to-top').length) {
-    var scrollTrigger = 100, // px
+    var scrollTrigger = 300, // px
         backToTop = function () {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {
-                $('#back-to-top').addClass('show');
+                $('#back-to-top').fadeIn('slow');
             } else {
-                $('#back-to-top').removeClass('show');
+                $('#back-to-top').fadeOut('slow');
             }
         };
     backToTop();
